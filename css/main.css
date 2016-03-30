@@ -219,6 +219,18 @@ body{
     float: left;
 }
 
+.gear-container{
+    margin-top: 15px;
+    border-top: 1px solid black;
+}
+
+.gear-container div{
+    min-width: 100%;
+}
+
+.gear-container div div{
+    padding: 5px;
+}
 
 .socialcontainer i{
     font-size: 36px;
