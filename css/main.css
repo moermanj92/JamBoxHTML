@@ -194,6 +194,7 @@ body{
 
 .userminipro{
     position: fixed;
+    width: 250px;
 }
 
 .bandscontainer, .socialcontainer, .skillcontainer{
@@ -211,7 +212,7 @@ body{
     display: inline-block;
     width: 150px;
     padding-right: 10px;
-    
+
 }
 
 .skillcontainer h5, .skillcontainer .progress{
