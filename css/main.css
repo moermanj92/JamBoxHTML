@@ -47,3 +47,50 @@ body{
 .main-content-post {
     border-left-color: #5bc0de;
 }
+
+.userminipro, .userprocontent{
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+.contactme, .mybands, .myskills{    
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.contactme:hover, .mybands:hover, .myskills:hover{    
+    background-color: grey;
+    cursor: pointer;
+}
+
+.userprocontent{
+    padding: 10px;
+}
+
+.userminipro img{
+    display: block;
+    margin: auto;
+}
+
+.userminipro span{
+    font-size: 25px;
+    color: black;
+}
+
+.userminipro div .btncontent{
+      position: relative;
+      left: 15px;
+      top: -2px;
+      display: inline-block;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 40px;
+
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}

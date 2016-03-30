@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jambox</a>
+          <a class="navbar-brand" href="newsfeed.html">Jambox</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -61,42 +61,23 @@
       </div>
     </nav>
     <div class="container main-container">
-      <div class="row">
-        <div class="col-lg-">      
-          <button type="button" class="btn btn-primary btn-clip"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-success btn-calendar"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-info btn-post"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-danger btn-showall"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></button>
-          <span class="filter-text highlight"><mark>Showing all</mark></span>
-        </div>
-      </div>
-      <div class="row main-content">
+    	<div class="row">
+    		<div class="col-md-3 userminipro">
+    			<img src="img/profilepicmarvin.png" width="200" height="200" />
+    			<div class="contactme"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><span class="btncontent">Contact me</span></div>
+    			<div class="mybands"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span><span class="btncontent">My bands</span></div>
+    			<div class="myskills"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span><span class="btncontent">My skills</span></div>
+    		</div>
 
-          <div class="col-lg-">
-              
-              <div class="bs-callout bs-callout-clip main-content-clip">
+    		<div class="col-md-8 col-md-offset-1 userprocontent">
+    			<div class="userpro-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis eros, iaculis vel turpis at, finibus tristique ipsum. Quisque placerat ante lectus, id eleifend diam dignissim nec. Aenean volutpat mollis enim, at elementum ipsum viverra id. Nulla efficitur at nisi non congue. Ut gravida, est in accumsan iaculis, sem arcu ultrices odio, id commodo velit enim a arcu. Praesent vel magna et diam aliquet fringilla varius id risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean ac velit et turpis commodo tristique a eget mauris. Sed quam magna, egestas et eleifend sed, commodo nec metus. Cras finibus pretium purus a accumsan. Curabitur pharetra elementum magna quis fringilla. Vestibulum sit amet posuere orci.</p>
 
-                  <div class="col-md-4"><a href="user.html">Marvin</a> posted a clip</div>
-                  <div class="col-md-4 col-md-offset-4 text-right">in Grotto</div> 
-
-                  <iframe width="100%" height="100px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/200173111&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
-
-                  <div class="container">Nocturnal Trance test</div>
-
-              </div>
-              
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-">
-              <div class="bs-callout bs-callout-invite main-content-calendar">Calendar Invite</div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-">
-              <div class="bs-callout bs-callout-message main-content-post">Content here</div>
-          </div>
-      </div>
+				<p>Ut in nulla libero. Donec eleifend molestie justo, semper lobortis leo iaculis eu. Nunc suscipit lorem eu risus accumsan, quis mattis erat porta. Suspendisse eget quam hendrerit, elementum nisl eget, bibendum mi. Suspendisse metus ipsum, semper nec tempor eget, dignissim nec lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam sed eleifend purus. Aliquam erat volutpat. Pellentesque sodales rutrum magna, at fringilla est aliquet nec. Phasellus iaculis augue at est commodo volutpat. Sed vehicula eleifend mattis.</p></div>
+    		</div>
+    		<div class="col-md-8 col-md-offset-4 userprocontent contactme-content">Ik ben marvin bel mij op 051/696969</div>
+			<div class="col-md-8 col-md-offset-4 userprocontent mybands-content">Ik trommel bij Seventh Circle</div>
+			<div class="col-md-8 col-md-offset-4 userprocontent myskills-content">Ik kan veel pintjes drinken</div>
+    	</div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -104,6 +85,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
-    <script src="js/get.js"></script>
+    <script src="js/userprofile.js"></script>
   </body>
 </html>
