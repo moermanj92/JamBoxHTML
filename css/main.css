@@ -36,6 +36,12 @@ body{
     border-left-color: #5bc0de;
 }*/
 
+.btncontent{
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
 .main-content-clip {
     border-left-color: #1b809e;
 }
@@ -51,25 +57,107 @@ body{
 .userminipro, .userprocontent{
     background-color: white;
     padding: 10px 0px 10px 0px;
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     color: black;
 }
 
 .contactme, .mybands, .myskills{    
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.contactme-content, .mybands-content, .myskills-content{
+
+}
+
+.contactme-content{
+    border-left: 3px solid #337ab7;
+}
+
+.contactme-content h4{
+    color: #2e6da4;
+}
+
+.mybands-content h4{
+    color: #eea236;
+}
+
+.myskills-content h4{
+    color: #4cae4c;
+}
+
+.mybands-content{
+    border-left: 3px solid #f0ad4e;
+}
+
+.myskills-content{
+    border-left: 3px solid #5cb85c;
+}
+
+.buttonActiveContact{
+    background-color: #E0E0E0;
+    padding-left: 2px;
+    border-left: 3px solid #337ab7;
+}
+
+.buttonActiveSkills{
+    background-color: #E0E0E0;
+    padding-left: 2px;
+    border-left: 3px solid #5cb85c;
+}
+
+.buttonActiveBands{
+    background-color: #E0E0E0;
+    padding-left: 2px;
+    border-left: 3px solid #f0ad4e;
+}
+
+.contactme, .mybands, .myskills{
+    width: 100%;
+    text-align: left;
 }
 
 .contactme:hover, .mybands:hover, .myskills:hover{    
-    background-color: grey;
+    background-color: #E0E0E0;
     cursor: pointer;
+    padding-left: 2px;
+}
+
+.contactme:active, .mybands:active, .myskills:active{    
+    background-color: #E0E0E0;
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.contactme:hover{
+    border-left: 3px solid #337ab7;
+}
+
+.mybands:hover{
+    border-left: 3px solid #f0ad4e;
+}
+
+.myskills:hover{
+    border-left: 3px solid #5cb85c;
 }
 
 .userprocontent{
     padding: 10px;
+    margin-bottom: 10px;
+}
+
+.userprocontent img{
+    float: right;
+}
+
+.userminipro p{
+    float: left;
+}
+
+.userminipro .contactme:active,
+.userminipro .mybands:active,
+.userminipro .myskills:active{
+    background-color: #E0E0E0;
 }
 
 .userminipro img{
@@ -82,15 +170,28 @@ body{
     color: black;
 }
 
+.userminipro .glyphicon{
+    top: 5px;
+    padding-left: 3px;
+}
+
+.userminipro .glyphicon-tasks{
+    top: 7px;
+}
+
 .userminipro div .btncontent{
       position: relative;
       left: 15px;
-      top: -2px;
       display: inline-block;
-      font-style: normal;
-      font-weight: normal;
+      font-family: inherit;
+      font-size: 18px;
+      font-weight: 500;
       line-height: 40px;
 
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+}
+
+.userminipro{
+    position: fixed;
 }
