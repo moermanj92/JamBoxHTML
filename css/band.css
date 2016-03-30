@@ -1,0 +1,20 @@
+.bandprocontent div{
+	padding-left: 5px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+.gear-container{
+	display: none;
+}
+
+.bandprocontent #bandanchor,
+.bandprocontent #membersanchor,
+.bandprocontent #musicanchor{
+	position: relative;
+	top: -70px;
+}
+
+.main-container{
+	margin-top: 0px;
+}

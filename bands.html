@@ -9,7 +9,10 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.css">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/bands.css" rel="stylesheet">
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,7 +30,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Jambox</a>
+          <a class="navbar-brand" href="newsfeed.html">Jambox</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -37,7 +40,7 @@
                 </div>
                 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
             </form>
-            <li><a href="bands.html">Bands</a></li>
+            <li><a href="bands">Bands</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
@@ -62,41 +65,38 @@
       </div>
     </nav>
     <div class="container main-container">
-      <div class="row">
-        <div class="col-lg-">      
-          <button type="button" class="btn btn-primary btn-clip"><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-success btn-calendar"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-info btn-post"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></button>
-          <button type="button" class="btn btn-danger btn-showall"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span></button>
-          <span class="filter-text highlight"><mark>Showing all</mark></span>
-        </div>
-      </div>
-      <div class="row main-content">
-
-          <div class="col-lg-">
-              
-              <div class="bs-callout bs-callout-clip main-content-clip">
-
-                  <div class="col-md-4"><a href="user.html">Marvin</a> posted a clip</div>
-                  <div class="col-md-4 col-md-offset-4 text-right">in <a href="band.html">Grotto</a></div> 
-
-                  <iframe width="100%" height="100px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/200173111&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
-
-                  <div class="container">Nocturnal Trance test</div>
-
-              </div>
-              
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-">
-              <div class="bs-callout bs-callout-invite main-content-calendar">Calendar Invite</div>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-">
-              <div class="bs-callout bs-callout-message main-content-post">Content here</div>
-          </div>
+    	<div class="row">
+          <h4>Bands near you</h4>
+    	   <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
+         <a href="band.html"><div class="bandThumb bandThumb1">
+           <div class="overlay">Test</div>
+         </div></a>
       </div>
     </div>
 
@@ -105,6 +105,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
-    <script src="js/get.js"></script>
+    <script src="js/userprofile.js"></script>
   </body>
 </html>
