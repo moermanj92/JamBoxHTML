@@ -1,0 +1,31 @@
+.gear-container{
+	display: none;
+}
+
+#myskills{
+	display: none;
+}
+
+.venueminipro button{
+	width: 100%;
+}
+
+.upcoming-events{
+
+    color: #5cb85c;
+    border-left: 3px solid #5cb85c;
+}
+
+.venueminipro .glyphicon{
+	padding-left: 6px;
+}
+
+.venueminipro .venue-mini-date:hover{
+	border-left: 3px solid #5cb85c;
+	background-color: #E0E0E0;
+}
+
+.venueminipro .venue-mini-date:hover .glyphicon{
+	padding-left: 3px;
+}
+

@@ -9,3 +9,12 @@
 .eventminipro button{
 	width: 100%;
 }
+
+.eventminipro .event-mini-venue:hover{
+	background-color: #E0E0E0;
+	border-left: 3px solid #5cb85c;
+}
+
+.eventminipro .event-mini-venue:hover span{
+	padding-left: 0px;
+}
