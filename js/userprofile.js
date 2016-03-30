@@ -4,8 +4,6 @@ function filter_content(toshow, tohide1, tohide2){
 	var classToHide1 = "." + tohide1 + "-content";
 	var classToHide2 = "." + tohide2 + "-content";
 
-	console.log(classToShow);
-
 	$(classToShow).show(); //show or hide created class selectors
 	$(classToHide1).hide();
 	$(classToHide2).hide();
